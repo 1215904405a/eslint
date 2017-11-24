@@ -1,3 +1,11 @@
 1、Local Installation and Usage
 
 2、Global Installation and Usage
+
+
+
+配置说明：
+
+env 指定代码运行的环境。
+parserOptions 指定 JavaScript 相关的选项。ecmaVersion 指定用哪个 ECMAScript 的版本，默认是 3 和 5。
+rules 指定具体检查的规则。默认情况下，如果不设置检查的规则，ESLint 不会检查任何规则。
