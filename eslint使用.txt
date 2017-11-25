@@ -1,6 +1,27 @@
+一、安装
 1、Local Installation and Usage
 
+npm install eslint --save-dev   or   yarn add eslint --dev
+
+./node_modules/.bin/eslint --init //配置文件初始化
+
+./node_modules/.bin/eslint yourfile.js  or  yarn eslint yourfile.js //检测自己的js
+
+react jsx检测需要安装 eslint-plugin-react
+
+结合webpack 安装 eslint-loader
+
+  {
+    test: /\.jsx?$/,
+    exclude: /(node_modules|bower_components)/,
+    loader: 'eslint-loader',
+  }
+
 2、Global Installation and Usage
+
+yarn global add eslint //全局安装
+
+yarn global add eslint-plugin-react
 
 
 
